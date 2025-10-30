@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3,h4,h5,p,ol,ul,li,img,a,html,body {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-decoration: none;
+	border-style: none;
+}
+
+body {
+	background-color: #A48B6D;
+}
+
+#wrapper {
+	position: relative;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#side_navi {
+	width: 250px;
+	background-image: url(images/side_bg.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 794px;
+	margin-light: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+#side_navi ul,#side_navi_li {
+	list-style: none inside none;
+}
+
+#side_navi ul {
+	margin-left: 2px;
+}
+
+#side_navi li {
+	height: 273px;
+	width: 50px;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+	margin-top: 27px;
+	margin-bottom:309px; 
+}
+
+#side_navi .current {
+	margin-top: 12px;
+}
+
+#side_navi p {
+	clear: left;
+	width: 112px;
+	height: 28px;
+	background-color: #BCA68B;
+	padding-left: 69px;
+	padding-top: 12px;
+	padding-right: 69px;	
+}
+/*--- common ---*/
+
+#content {
+	width: 700px;
+	padding: 0 15px;
+	background-image: url(images/content_bg.gif);
+	position: relative;
+	left: 235px;
+	z-index: 0;
+}
+
+#content li,#content ul {
+	list-style: none inside none;
+}
+
+#content ul li {
+	width: 230px;
+	height: 250px;
+	margin-left: 3px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	float: left;
+}
+
+#content ol li {
+	clear: left;
+}
+
+#content ol {
+	margin-left: 180px;
+}
+
+#content .word2 {
+	margin-left: -28px;
+	margin-bottom: 25px;
+}
+
+
+#content ol li {
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#content h2 {
+	text-align: center;
+}
+
+#content h3 {
+	margin-bottom: 16px;
+}
+
+#content td {
+	width: 230px;
+	vertical-align: top;
+	
+}
+
+#content table {
+	border-collapse: separate;
+	border-spacing: 12px 60px; 
+}
+/*--- top page ---*/
+
+#menu {
+	width: 700px;
+	padding: 0 15px;
+	background-image: url(images/menu_bg.gif);
+	position: relative;
+	left: 235px;
+	z-index: 0;
+}
+
+#menu li,#menu ul {
+	list-style: none inside none;
+}
+
+#menu ul {
+	margin-left: 1px;
+}
+
+#menu ul li {
+	width: 115px;
+	height: 200px;
+	margin-left: 1px;
+	margin-bottom: 45px;
+	overflow: hidden;
+	float: left;
+}
+
+#menu h3 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+
+#menu p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#menu h2,#menu h2 a {
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 36px;
+	text-align: center;
+	margin: 30px 0 30px 0;
+}
+
+#menu table {
+	clear: left;
+	width: 650px;
+	border-spacing: 13px;
+	margin-left: 25px;
+	margin-bottom: 40px;
+	
+}
+
+#menu td,#menu th {
+	height: 16px;
+	font-size: 16px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 16px;
+}
+
+#menu .price {
+	width: 120px;
+	text-align: right;
+}
+
+h5 {
+	margin-bottom: 80px;
+	margin-left: 300px;
+}
+/* --- menu ---*/
+
+#takeout {
+	padding-top: 10px;
+}
+
+#takeout h2 {
+	width:230px;
+	height: 250px;
+	margin-top: -10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	float: left;
+}
+
+#takeout h3 {
+	width: 680px;
+	height:80px;
+	line-height: 40px;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: left;
+	color: #200;
+	margin-bottom: 5px;
+}
+
+#takeout .price {
+	text-align: right;
+}
+
+#takeout p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+#howto {
+	clear: left;
+}
+
+#howto h3 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #100;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+
+#howto ol {
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	margin: 0 0 120px 30px;
+}
+
+#howto h4 {
+	font-size: 17px;
+	line-height: 17px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+
+#howto p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 20px;
+}
+/* take out end */
+
+#info h2 {
+	width:230px;
+	height: 250px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	float: left;
+}
+
+#info h3 {
+	width: 680px;
+	height:80px;
+	line-height: 40px;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: left;
+	color: #200;
+	padding-top: 10px;
+	magin-left: -20px;
+	margin-bottom: 15px;
+	
+}
+
+#info p {
+	font-size: 16px;
+	line-height: 22px;
+	text-indent: 1.2em;
+}
+
+#map {
+	clear: left;
+	float: left;
+	margin: 80px 0 20px 20px;
+}
+
+#attention {
+	float: left;
+	width: 270px;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 40px;
+	margin-left: 25px;
+	margin-bottom: 60px;
+}
+
+#attention h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.shop_img {
+	clear: left;
+	margin: 0px 0 20px 20px;
+}
+/* infomation end */
+
+#shop p {
+	clear: left;
+	text-align: right;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+	margin-right: 15px;
+}
+
+#footer {
+	clear: left;
+	width: 700px;
+	height: 36px;
+	padding-top: 12px;
+	background-color: #BCA68B;
+	border-bottom: solid black 1px;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 16px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+#side_navi li a:hover {
+	position: relative;
+	top: -273px;
+}
+
+#content li a:hover {
+	position: relative;
+	top: -250px;
+}
+
+#menu li a:hover {
+	position: relative;
+	top: -200px;
+}
