@@ -1,0 +1,6 @@
+@charset "utd-8";
+
+h1, p {
+    text-align: center;
+    padding: 1em;
+}
