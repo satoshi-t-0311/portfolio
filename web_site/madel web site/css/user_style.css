@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	background-color: #fbdcdc;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.g-nav .user {
+	color: #e29e36;
+}
+
+.user_main_pic {
+	width: 120%;
+	margin: 0 10% 0 -10%;
+}
+
+h2 {
+	font-family: 'Noto Sans JP', sans-serif;
+	margin: 0 auto 0;
+	padding: 0.625em 0;
+	width: 15em;
+	color: #fff;
+	font-size: 1em;
+	text-align: center;
+	background-color: #b75d35;
+	border-radius: 5px;
+}
+
+P {
+	/*margin-top: 1.6875em; */
+	line-height: 2em;
+	text-align: center;
+}
+
+.madel-towa {
+	margin-top: 2.1875em;
+	width: 12.5em;
+}
+
+p.center_p {
+	margin-top: 1.6875em;
+}
+@media (min-width: 885px ) {
+	p.center_p {
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+div.kengaku {
+	width: 315px;
+	margin: 1.875em auto 3.125em;
+}
+
+.add_01 {
+	width: 340px;
+	height: 255px;
+	line-height:  1.875em;
+	font-weight:  bold;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.span-madel {
+	font-size: 1.8em;
+}
+
+.span-tel {
+	font-size: 1.8em;
+}
+
+.katudou_01 {
+	width: 7em;
+	margin-bottom: 1em;
+}
+
+.teikyou_h2 {
+	width: 9em;
+}
+
+h3 {
+	width: 8em;
+	padding: .6em 0;
+	margin: 2.1875em auto 1.625em;
+	color: #fff;
+	text-align: center; 
+	background-color: #408e40;
+	border-radius: 5px;
+}
+
+.katudou_02 {
+	display: flex;
+	justify-content: center;
+}
+
+.naiyou {
+	/* width: 30%; */
+	margin-left: 60px;
+	margin-right:60px;
+	text-align:  center;
+}
+
+.naiyou ul li {
+	margin-bottom: 1.25em;
+}
+
+.naiyou p {
+	margin-bottom: 1.4375em;
+}
+
+
+.teikyou-naiyou {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	list-style-type: disc;
+	margin-top: 1.6875em;
+	line-height: 2em;
+	margin-bottom: 5em;
+}
+
+.kaisyo_ul {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	list-style-type: disc;
+	margin-top: 1.6875em;
+	line-height: 2em;
+	margin-bottom: 0.5em;
+}
+
+p.teikyou_p {
+	margin-top: 0;
+	margin-bottom: 5em;
+}
+
+h2.kaisyo_h2 {
+	width: 11em;
+}
+
+h2.kouchin_h2 {
+	width: 7em;
+}
+
+p.kouchin_p {
+	margin-top: 1.6875em;
+	padding-bottom: 5em;
+}
+
+table.service_riyou {
+	max-width: 800px;
+	margin:1.6em auto 0;
+	line-height: 2em;
+}
+
+.service_riyou tr td:first-child {
+	width: 4.5em;
+}
+
+.bottom_td {
+	padding-bottom: 5em;
+}
+
+h6, .ft_add  {
+	margin-top: 1em;
+	line-height: 1.7em;
+	text-align: left;
+	color: #f6e1c1;
+}
+
+@media screen and (max-width: 480px){
+	.kengaku img {
+		width: 280px;
+	}
+	
+	.katudou_02 {
+		flex-direction: column;
+	}
+	.naiyou {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

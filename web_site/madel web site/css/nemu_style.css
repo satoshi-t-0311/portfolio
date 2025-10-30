@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 1050px ) {
+	body {
+		width: 1050px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+}
+
+.g-nav .menu {
+	color: #e29e36;
+}
+
+.food {
+	color: #f6e1c1;
+	line-height: 2.625em;
+}
+
+.food caption {
+	color: #fff;
+	margin-top: 4em;
+	margin-bottom: 3.375em;
+	font-size: 1.125em;
+}
+
+.food .price {
+	text-align: right;
+}
+
+.menu_pic img {
+	width: 437px;
+	display: flex;
+	flex-direction: column;
+}
+
+.menu_pic p {
+	color: #f6e1c1;
+	margin-bottom: 0.7em;
+}
+
+img.img_03 {
+	width: 437px; /*265px; */
+}
+
+table {
+	margin: 1em;
+}
+
+.table_01 {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-bottom: 1em;
+}
+
+.table_02 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-bottom: 1em;
+}
+
+.table_03 {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 1em;
+}
+
+.moji_space {
+	line-height: 1.2em;
+}
+
+td {
+	width: 40vw;
+}
+
+td.price {
+	width: 10vw;
+}
+
+@media screen and (max-width: 885px ) {
+	.table_01, .table_02, .table_03 {
+		flex-direction: column;
+	}
+	table, .menu_pic img {
+		width: 90%;
+		margin: 0 auto 2em;
+	}
+} 

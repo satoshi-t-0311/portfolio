@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.g-nav .top {
+	color: #e29e36;
+}
+
+main img.mv {
+	width: 100%;
+}
+
+.top_p {
+	display: flex;
+	justify-content: space-around;
+}
+
+iframe {
+	margin-top: 16px;
+	margin-left: 20px;
+}
+
+.sell01, .sell02 {
+	color: #fff;
+	font-size: 112.5%;
+	text-align: center;
+	margin-top: 4.722em;
+	margin-bottom: 2.388em;
+	margin-right: 1em;
+	
+}
+
+.sell02_p, .sell01_p {
+	color: #f6e1c1;
+	font-size: 0.875em;
+	text-align: center;
+	line-height: 2.4em;
+	margin-right: 1em;
+	margin-bottom: 3em;
+}
+
+@media screen and (max-width: 735px) {
+	.top_p {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	iframe {
+		margin: 16px auto;
+	}
+}

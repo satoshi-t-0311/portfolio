@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.g-nav .access {
+	color: #e29e36;
+}
+
+.gmap {
+height: 0;
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+}
+.gmap iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
+
+section.madel p.access {
+	text-align: center;
+	margin-top: 0em;
+}
+.title_moji {
+	display: block;
+	width: 90%;
+	margin:  .25em auto 0;
+	}
+	
+p.add_moji {
+	font-size: 1em;
+	line-height: 2.375em;
+	color: #faf1e7;
+	margin-top: 1.125em;
+}
+
+.center {
+	display: block;
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	margin-bottom: 4.0635em;
+}
+
+section.madel {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3.375em;
+	margin-bottom: 4.0625em;
+}
+
+.name {
+	font-size: 1em;
+	color: #f6e1c1;
+	text-align: center;
+}
+
+span {
+	font-size: 1.875em;
+	color: #e65437;
+}
+@media screen and (min-width:800px) {
+	.title_moji {
+		width: 635px;
+}
