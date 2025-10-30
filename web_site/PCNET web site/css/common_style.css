@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wf-notosansjapanese { font-family: "Noto Sans JP"; }
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,dl,dd,dt,img,a,ol,table,td,tr {
+	margin: 0;
+	padding: 0;
+	list-style: none inside none;
+	text-indent: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 100%;
+	text-decoration: none;
+	border-image: none;
+}
+
+
+	
+@media only screen and (min-width: 960px) {
+	#wrapper {
+		width: 960px;
+	}
+}
+#wrapper{
+	margin: 0 auto;
+}
+
+h2 img {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+
+nav ul li {
+	margin-right: 30px;
+	font-size: 24px;
+}
+
+nav ul li a {
+	color: #000;
+}
+
+p {
+	font-size: 13px;
+	margin-left: 16px;
+}
+
+h3 {
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 32px;
+	margin-top: 48px;
+	margin-left: 16px;
+}
+
+article {
+	clear: both;
+}
+
+dl {
+	font-size: 15px;
+	overflow: hidden;
+}
+
+dt {
+	float: left;
+	font-weight: bold;
+	margin-left: 32px;
+}
+
+dd {
+	margin: 0 0 0.75em 0;
+}
+ 
+
+.pic img {
+	width: 560px;
+	padding-bottom: 96px;
+}
+
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.moji {
+	width: 380px;
+	padding: 0 10px;
+	padding-bottom: 96px;
+}
+
+footer {
+	padding-top: 24px;
+	background-color: #333;
+	clear: both;
+}
+
+footer .foot {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+
+footer .foot li {
+	font-size: 16px;
+	margin-right: 30px;
+}
+
+footer .foot a {
+	color: #FF9;
+}
+
+footer p {
+	text-align: center;
+	color: #FF3;
+	padding-bottom: 48px;
+}
+
+@media only screen and (max-width: 1024px) {
+	nav ul {
+		display:flex;
+		margin-right: 6px;
+	}
+
+	nav ul li {
+		margin-right: 12px;
+		font-size: 15px;
+	}
+	.pic img {
+		width: 96vw;
+		padding-bottom: 10px;
+	}
+	.moji {
+		width: 100vw;
+		padding-bottom: 10px;
+	}
+/*	footer .foot,.foot ul {
+		display: inline;
+		text-align: center;
+	}
+	.foot li, .foot ul li {
+		margin-top: 12px;
+		margin-bottom:12px;
+	}*/
+	/*
+	footer ul, footer ul li {
+		display: none;
+	} */
+}

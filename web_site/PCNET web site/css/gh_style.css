@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wf-notosansjapanese { font-family: "Noto Sans JP"; }
+
+h4 {
+	margin-bottom: 0.6em;
+	padding-left: 10px;
+	border-left: #06F solid 12px;
+	font-size: 22px;
+	color: #39F;
+}

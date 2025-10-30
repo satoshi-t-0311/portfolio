@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.wf-notosansjapanese { font-family: "Noto Sans JP"; }
+
+#php {
+	width: 315px;
+	margin: 0 auto;
+	font-size: 16px;
+}
